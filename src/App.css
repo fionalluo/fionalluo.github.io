@@ -1,13 +1,19 @@
 @import url('https://fonts.googleapis.com/css2?family=Lato:wght@700&display=swap');
+@import url('https://fonts.googleapis.com/css?family=PT+Serif:400,400italic,700%7CPT+Sans:400');
+@import url('https://fonts.googleapis.com/css?family=Source+Code+Pro');
+@import url('https://fonts.googleapis.com/css?family=Quattrocento+Sans');
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Source+Serif+Pro:wght@400;600&display=swap');
+@import url('https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css');
 
 /* Define CSS variables for link colors */
 :root {
   --link-color: #6A8C95; /* Light blue color for links */
   --link-hover-color: #4682B4; /* Slightly darker blue for hover effect */
   --text-color: #333;
-  --font-size: 21px;
+  --font-size: 19px;
   --title-font: 'Lato', sans-serif;
-  --text-font: 'Garamond', serif;
+  --text-font: 'PT Serif', serif;
 }
 
 /* Styling for the main container */
@@ -41,6 +47,14 @@ body {
   padding: 0; /* Remove default padding */
 }
 
+/* Styling for the top header */
+.header-top {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 100%;
+}
+
 /* Name styling */
 .name {
   font-size: 40px; /* Relative font size for responsiveness */
@@ -57,6 +71,25 @@ body {
 
 .name-link:hover {
   color: var(--link-color); /* Slightly darker blue for hover effect */
+}
+
+/* Projects link styling */
+.projects-link {
+  font-size: var(--font-size); /* Relative font size for responsiveness */
+  margin-bottom: 40px; /* Margin below the name */
+  font-family: var(--title-font);
+  color: var(--link-color); /* Dark gray color for the name */
+  font-weight: bold; /* Bold font weight */
+}
+
+.projects-link a {
+  font-style: normal;
+  color: var(--link-color);
+  text-decoration: none;
+}
+
+.projects-link a:hover {
+  color: var(--link-hover-color);
 }
 
 /* Flex container for intro and image */
@@ -138,11 +171,10 @@ a:hover {
 
 /* Note about course levels */
 .coursework-note {
-  font-size: 18px; /* Font size for the note */
+  font-size: var(--font-size); /* Font size for the note */
   text-align: left; /* Center the note */
   margin-bottom: 0px; /* Space below the note */
-  color: var(--font); /* Slightly lighter gray for the note */
-  font-size: var(--font-size); /* Font size for responsiveness */
+  color: var(--text-color); /* Slightly lighter gray for the note */
   color: var(--text-color);; /* Dark gray color for the list items */
   line-height: 1.4; /* Increase line spacing */
 }
@@ -158,7 +190,7 @@ a:hover {
 
 /* Bullet list for courses */
 .course-list {
-  font-size: 20px; /* Font size for the list */
+  font-size: var(--font-size); /* Font size for the list */
   margin-left: 20px; /* Indent for the list */
   color: var(--text-color);; /* Dark gray color for the list items */
   line-height: 1.5; /* Increase line spacing */

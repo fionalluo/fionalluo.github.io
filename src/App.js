@@ -3,12 +3,16 @@ import { BrowserRouter as Router, Route, Routes, Link } from 'react-router-dom';
 import './App.css';
 import profilePic from './profile-pic-2.jpg'; // Ensure you have your picture file
 import Coursework from './Coursework'; // Import the new Coursework component
+import Projects from './Projects'; // Import the new Projects component
 
 function Home() {
   return (
     <div className="container">
       <header className="App-header">
-        <div className="name"><Link to="/" className="name-link">Fiona Luo</Link></div>
+        <div className="header-top">
+          <div className="name"><Link to="/" className="name-link">Fiona Luo</Link></div>
+          <div className="projects-link"><Link to="/projects" className="name-link">Projects</Link></div>
+        </div>
         <div className="intro-container">
           <div className="intro">
             I am a senior at the University of Pennsylvania pursuing a B.S.E. and M.S.E. 
@@ -54,7 +58,8 @@ function Home() {
         </div>
         <br></br>
         <div className="contact">
-          Resume available upon request. If you have any questions or would like to chat, feel free to reach out.
+          Resume available upon request. If you have any questions or would like to chat, feel free to reach out
+          at fionaluo@seas.upenn.edu.
         </div>
         <div className="social-media">
           <a href="mailto:fionaluo@seas.upenn.edu" target="_blank" rel="noopener noreferrer">
@@ -65,12 +70,6 @@ function Home() {
           </a>
           <a href="https://www.linkedin.com/in/fionalluo" target="_blank" rel="noopener noreferrer">
             <img src="/icons/linkedin.png" alt="LinkedIn" className="social-icon" />
-          </a>
-          <a href="https://weixin.qq.com" target="_blank" rel="noopener noreferrer">
-            <img src="/icons/wechat.png" alt="WeChat" className="social-icon" />
-          </a>
-          <a href="https://www.facebook.com/fionalluo" target="_blank" rel="noopener noreferrer">
-            <img src="/icons/facebook.jpg" alt="Facebook" className="social-icon" />
           </a>
         </div>
       </header>
@@ -84,6 +83,7 @@ function App() {
       <Routes>
         <Route path="/" element={<Home />} />
         <Route path="/coursework" element={<Coursework />} />
+        <Route path="/projects" element={<Projects />} />
       </Routes>
     </Router>
   );
