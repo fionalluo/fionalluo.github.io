@@ -17,7 +17,7 @@ function Home() {
             <br></br><br></br>
             Currently conducting research within the <a href="https://www.grasp.upenn.edu/" target="_blank">GRASP Laboratory</a> and <a href="https://nlp.cis.upenn.edu/" target="_blank">Penn NLP</a> + 
             writing a related senior thesis.
-          </div>.
+          </div>
           <img src={profilePic} alt="Fiona Luo" className="profile-pic" />
         </div>
         <div className="past-work">
@@ -54,7 +54,24 @@ function Home() {
         </div>
         <br></br>
         <div className="contact">
-          Resume available upon request. If you have any questions or would like to chat, feel free to reach out (social links below).
+          Resume available upon request. If you have any questions or would like to chat, feel free to reach out.
+        </div>
+        <div className="social-media">
+          <a href="mailto:fionaluo@seas.upenn.edu" target="_blank" rel="noopener noreferrer">
+            <img src="/icons/email.png" alt="Email" className="social-icon" />
+          </a>
+          <a href="https://github.com/fionalluo" target="_blank" rel="noopener noreferrer">
+            <img src="/icons/github.png" alt="GitHub" className="social-icon" />
+          </a>
+          <a href="https://www.linkedin.com/in/fionalluo" target="_blank" rel="noopener noreferrer">
+            <img src="/icons/linkedin.png" alt="LinkedIn" className="social-icon" />
+          </a>
+          <a href="https://weixin.qq.com" target="_blank" rel="noopener noreferrer">
+            <img src="/icons/wechat.png" alt="WeChat" className="social-icon" />
+          </a>
+          <a href="https://www.facebook.com/fionalluo" target="_blank" rel="noopener noreferrer">
+            <img src="/icons/facebook.jpg" alt="Facebook" className="social-icon" />
+          </a>
         </div>
       </header>
     </div>

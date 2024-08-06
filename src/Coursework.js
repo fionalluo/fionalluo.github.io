@@ -73,6 +73,23 @@ function Coursework() {
                     <li><strong>+PHYS 0151</strong> - Principles of Physics II: Electromagnetism</li>
                 </ul>
             </div>
+            <div className="social-media">
+                <a href="mailto:fionaluo@seas.upenn.edu" target="_blank" rel="noopener noreferrer">
+                    <img src="/icons/email.png" alt="Email" className="social-icon" />
+                </a>
+                <a href="https://github.com/fionalluo" target="_blank" rel="noopener noreferrer">
+                    <img src="/icons/github.png" alt="GitHub" className="social-icon" />
+                </a>
+                <a href="https://www.linkedin.com/in/fionalluo" target="_blank" rel="noopener noreferrer">
+                    <img src="/icons/linkedin.png" alt="LinkedIn" className="social-icon" />
+                </a>
+                <a href="https://weixin.qq.com" target="_blank" rel="noopener noreferrer">
+                    <img src="/icons/wechat.png" alt="WeChat" className="social-icon" />
+                </a>
+                <a href="https://www.facebook.com/fionalluo" target="_blank" rel="noopener noreferrer">
+                    <img src="/icons/facebook.jpg" alt="Facebook" className="social-icon" />
+                </a>
+            </div>
         </div>
     );
 }

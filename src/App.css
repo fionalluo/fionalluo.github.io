@@ -111,6 +111,20 @@ a:hover {
   color: var(--link-hover-color); /* Slightly darker blue for hover effect */
 }
 
+/* Styling for social media icons container */
+.social-media {
+  display: flex; /* Use Flexbox for layout */
+  justify-content: center; /* Center icons horizontally */
+  margin-top: 30px; /* Space above the social media icons */
+  width: 100%;
+}
+
+/* Styling for social media icons */
+.social-icon {
+  height: 24px; /* Height of the icon */
+  margin: 0 10px; /* Horizontal space between icons */
+}
+
 /* Coursework Page */
 /* Title for the coursework page */
 .title {
