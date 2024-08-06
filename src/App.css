@@ -4,8 +4,10 @@
 :root {
   --link-color: #6A8C95; /* Light blue color for links */
   --link-hover-color: #4682B4; /* Slightly darker blue for hover effect */
+  --text-color: #333;
   --font-size: 21px;
   --title-font: 'Lato', sans-serif;
+  --text-font: 'Garamond', serif;
 }
 
 /* Styling for the main container */
@@ -19,7 +21,7 @@
 
 /* Styling for the body */
 body {
-  font-family: 'Garamond', serif;
+  font-family: var(--text-font);
   margin: 0; /* Remove default margin */
   padding: 0; /* Remove default padding */
 }
@@ -44,13 +46,13 @@ body {
   font-size: 40px; /* Relative font size for responsiveness */
   margin-bottom: 40px; /* Margin below the name */
   font-family: var(--title-font);
-  color: #333; /* Dark gray color for the name */
+  color: var(--text-color); /* Dark gray color for the name */
   font-weight: bold; /* Bold font weight */
 }
 
 .name-link {
   font-style: normal; /* Ensure the name link is not italicized */
-  color: #333;
+  color: var(--text-color);;
 }
 
 .name-link:hover {
@@ -69,7 +71,7 @@ body {
 .intro {
   font-size: var(--font-size); /* Relative font size for responsiveness */
   margin-right: 5%; /* Margin between text and image */
-  color: #333; /* Dark gray color for the text */
+  color: var(--text-color);; /* Dark gray color for the text */
   line-height: 1.4; /* Increase line spacing */
   flex: 1; /* Allow the intro to grow if necessary */
 }
@@ -86,14 +88,14 @@ body {
 .intro, .education, .hobbies, .contact, .past-work {
   font-size: var(--font-size); /* Relative font size for responsiveness */
   margin-bottom: 0px; /* Margin between paragraphs */
-  color: #333; /* Dark gray color for the text */
+  color: var(--text-color);; /* Dark gray color for the text */
   line-height: 1.4; /* Increase line spacing */
 }
 
 /* Styling for the work list */
 .work-list {
   font-size: var(--font-size); /* Font size for responsiveness */
-  color: #333; /* Dark gray color for the list items */
+  color: var(--text-color);; /* Dark gray color for the list items */
   line-height: 1.4; /* Increase line spacing */
 }
 
@@ -114,25 +116,29 @@ a:hover {
 .title {
   font-size: 30px; /* Large font size for the main title */
   text-align: center; /* Center the title */
+  margin-top: 0px;
   margin-bottom: 20px; /* Space below the title */
-  color: #333; /* Dark gray color for the title */
+  color: var(--text-color);; /* Dark gray color for the title */
   font-family: var(--title-font);
 }
 
 /* Note about course levels */
 .coursework-note {
   font-size: 18px; /* Font size for the note */
-  text-align: center; /* Center the note */
-  margin-bottom: 30px; /* Space below the note */
-  color: #666; /* Slightly lighter gray for the note */
+  text-align: left; /* Center the note */
+  margin-bottom: 0px; /* Space below the note */
+  color: var(--font); /* Slightly lighter gray for the note */
+  font-size: var(--font-size); /* Font size for responsiveness */
+  color: var(--text-color);; /* Dark gray color for the list items */
+  line-height: 1.4; /* Increase line spacing */
 }
 
 /* Section titles */
 .section-title {
   font-size: 28px; /* Large font size for section titles */
-  margin-top: 40px; /* Space above the section title */
+  margin-top: 20px; /* Space above the section title */
   margin-bottom: 10px; /* Space below the section title */
-  color: #333; /* Dark gray color for the section titles */
+  color: var(--text-color);; /* Dark gray color for the section titles */
   font-family: var(--title-font);
 }
 
@@ -140,6 +146,6 @@ a:hover {
 .course-list {
   font-size: 20px; /* Font size for the list */
   margin-left: 20px; /* Indent for the list */
-  color: #333; /* Dark gray color for the list items */
+  color: var(--text-color);; /* Dark gray color for the list items */
   line-height: 1.5; /* Increase line spacing */
 }
