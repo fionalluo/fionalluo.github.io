@@ -54,7 +54,7 @@ body {
 /* Styling for profile picture */
 .profile-pic {
   width: 250px; /* Fixed width for the profile picture */
-  height: 270px; /* Fixed height to make it a rectangle */
+  height: 250px; /* Fixed height to make it a rectangle */
   object-fit: cover; /* Ensure the image covers the dimensions */
   border-radius: 8px; /* Slightly rounded corners */
 }

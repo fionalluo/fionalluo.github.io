@@ -11,8 +11,11 @@ function App() {
           <div className="intro">
             I am a senior at the University of Pennsylvania pursuing a B.S.E. and M.S.E. 
             in computer science (coursework here). I'm broadly interested in 
-            artificial intelligence, including reinforcement learning 
-            and NLP. 
+            artificial intelligence, reinforcement learning, 
+            and NLP.
+            <br></br><br></br>
+            Currently conducting RL research within the <a href="https://www.grasp.upenn.edu/" target="_blank">GRASP Laboratory</a> and 
+            writing a related senior thesis.
           </div>.
           <img src={profilePic} alt="Fiona Luo" className="profile-pic" />
         </div>
@@ -37,13 +40,13 @@ function App() {
             retrieval augmented generation
             </li>
             <li><a href="https://www.cis.upenn.edu/" target="_blank">Penn CIS</a>
-            : teach graduate-level deep learning and data structures and algorithms
+            : teach graduate-level deep learning, data structures and algorithms
             </li>
             <li><a href="https://wics.cis.upenn.edu/" target="_blank">Penn Women in Computer Science</a>
-            : co-president; 
+            : co-president; lead initiatives to support women in tech
             </li>
             <li><a href="https://summerscience.org/" target="_blank">Summer Science Program</a>
-            : determined the orbit of mars-crossing asteroid via method of Gauss
+            : determined orbit of mars-crossing asteroid via method of Gauss
             </li>
           </ul>
         </div>
