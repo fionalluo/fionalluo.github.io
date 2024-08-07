@@ -45,6 +45,18 @@ const projects = [
         description: 'Built QSAR machine learning model to identify antimicrobial and anti-HIV peptide physicochemical features using public peptide databases; applied LSTM network to generate novel sequences. (Picture is of predicted peptide.)',
         skills: ['python', 'keras', 'java']
     },
+    {
+        imgSrc: '/imgs/mario.png', // Replace with your image path
+        title: 'Rasterizer and GLSL Shaders',
+        description: 'Built rasterizer for 2D and 3D polygon rendering with perspective projection camera. Implemented custom GLSL shaders: Blinn-Phong, matcap, Sobel, and Gaussian blur, vertex deformation.',
+        skills: ['C++', 'OpenGL']
+    },
+    {
+        imgSrc: '/imgs/cow.png', // Replace with your image path
+        title: 'Maya Mesh Editor',
+        description: 'Created half-edge mesh data structure visualized with OpenGL vertex buffers. Implemented Catmull-Clark subdivision algorithm for mesh smoothing and added mesh editing operations, including face extrusions and sharpness adjustments.',
+        skills: ['C++', 'OpenGL']
+    },
 ];
 
 function Projects() {
