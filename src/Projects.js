@@ -7,13 +7,13 @@ const projects = [
         imgSrc: '/imgs/success.png', // Replace with your image path
         title: 'Vision-Language Models for Robot Success Detection',
         description: 'Built few-shot VLM success detector; analyzed co-finetuning, visual and language robustness. Published at the Undergraduate Consortium of AAAI-24.',
-        skills: ['pytorch', 'python', 'NLP']
+        skills: ['PyTorch', 'python', 'NLP']
     },
     {
         imgSrc: '/imgs/minecraft.png', // Replace with your image path
         title: 'Mini-Minecraft',
-        description: '3D-voxel engine recreating fully-playable Minecraft with OpenGL. Includes player physics, multithreaded chunking, terrain noise functions, cave systems, texturing, biomes, shadow mapping, and NPCs.',
-        skills: ['C++', 'OpenGL', 'computer graphics']
+        description: '3D-voxel engine recreating fully-playable Minecraft with OpenGL. Includes player physics, multithreaded chunking, terrain noise functions, cave systems, texturing, biomes, shadow mapping, water animation, and NPCs.',
+        skills: ['C++', 'OpenGL', 'graphics']
     },
     {
         imgSrc: '/imgs/penncloud.png', // Replace with your image path
@@ -42,20 +42,32 @@ const projects = [
     {
         imgSrc: '/imgs/peptide.png', // Replace with your image path
         title: 'QSAR-based Identification of Novel Antimicrobial Peptides',
-        description: 'Built QSAR machine learning model to identify antimicrobial and anti-HIV peptide physicochemical features using public peptide databases; applied LSTM network to generate novel sequences. (Picture is of predicted peptide.)',
-        skills: ['python', 'keras', 'java']
+        description: 'Built QSAR machine learning model to identify antimicrobial and anti-HIV peptide physicochemical features using public peptide databases; applied LSTM network to generate novel sequences. (Picture is of a generated drug lead.)',
+        skills: ['python', 'Keras', 'Java']
     },
     {
         imgSrc: '/imgs/mario.png', // Replace with your image path
-        title: 'Rasterizer and GLSL Shaders',
-        description: 'Built rasterizer for 2D and 3D polygon rendering with perspective projection camera. Implemented custom GLSL shaders: Blinn-Phong, matcap, Sobel, and Gaussian blur, vertex deformation.',
-        skills: ['C++', 'OpenGL']
+        title: 'Rasterizer & GLSL Shaders',
+        description: 'Rasterizer for 2D and 3D polygon rendering with perspective projection camera. Custom GLSL shaders: Blinn-Phong, matcap, Sobel, Gaussian blur, vertex deformation.',
+        skills: ['C++', 'OpenGL', 'GLSL']
     },
     {
         imgSrc: '/imgs/cow.png', // Replace with your image path
         title: 'Maya Mesh Editor',
-        description: 'Created half-edge mesh data structure visualized with OpenGL vertex buffers. Implemented Catmull-Clark subdivision algorithm for mesh smoothing and added mesh editing operations, including face extrusions and sharpness adjustments.',
+        description: 'Half-edge mesh data structure visualized with OpenGL vertex buffers. Catmull-Clark subdivision algorithm and mesh editing operations, including face extrusions and sharpness adjustments.',
         skills: ['C++', 'OpenGL']
+    },
+    {
+        imgSrc: '/imgs/multicast.png', // Replace with your image path
+        title: 'Distributed Chat Server',
+        description: 'Multithreaded chat servers that use multicast to broadcast messages to replicas. Supports chat groups, fault tolerance, and multiple levels of ordering strictness (causal, total, and FIFO). Picture from CIS 5050 course.',
+        skills: ['C++', 'distributed systems']
+    },
+    {
+        imgSrc: '/imgs/gtk2.png', // Replace with your image path
+        title: 'Superscalar Pipelined Datapath',
+        description: 'Five stage superscalar pipelined processor in Verilog. Implements RV32I and RV32IM instructions including branching and memory operations. Integrates AXI4-Lite memory, bypassing, and stalling mechanisms.',
+        skills: ['Verilog', 'computer architecture']
     },
 ];
 
