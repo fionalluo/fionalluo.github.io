@@ -59,7 +59,7 @@ function Home() {
         <br></br>
         <div className="contact">
           Resume available upon request. If you have any questions or would like to chat, feel free to reach out
-          at fionaluo@seas.upenn.edu.
+          at fionaluo [at] seas.upenn.edu.
         </div>
         <div className="social-media">
           <a href="mailto:fionaluo@seas.upenn.edu" target="_blank" rel="noopener noreferrer">
