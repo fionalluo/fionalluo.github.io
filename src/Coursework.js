@@ -83,12 +83,6 @@ function Coursework() {
                 <a href="https://www.linkedin.com/in/fionalluo" target="_blank" rel="noopener noreferrer">
                     <img src="/icons/linkedin.png" alt="LinkedIn" className="social-icon" />
                 </a>
-                <a href="https://weixin.qq.com" target="_blank" rel="noopener noreferrer">
-                    <img src="/icons/wechat.png" alt="WeChat" className="social-icon" />
-                </a>
-                <a href="https://www.facebook.com/fionalluo" target="_blank" rel="noopener noreferrer">
-                    <img src="/icons/facebook.jpg" alt="Facebook" className="social-icon" />
-                </a>
             </div>
         </div>
     );

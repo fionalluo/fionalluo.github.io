@@ -195,3 +195,66 @@ a:hover {
   color: var(--text-color);; /* Dark gray color for the list items */
   line-height: 1.5; /* Increase line spacing */
 }
+
+/* Projects Page */
+
+/* Projects grid layout */
+.projects-grid {
+  display: grid; /* Use CSS Grid layout */
+  grid-template-columns: repeat(3, 1fr); /* Three equal columns */
+  grid-auto-rows: auto; /* Allow rows to have variable heights */
+  gap: 20px; /* Space between grid items */
+  margin-top: 20px; /* Space above the grid */
+}
+
+/* Styling for individual project cells */
+.project-cell {
+  background-color: #f9f9f9; /* Light background color */
+  padding: 0px; /* Padding inside the cell */
+  padding-bottom: 10px;
+  border-radius: 10px; /* Rounded corners */
+  text-align: center; /* Center the content */
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Subtle shadow for depth */
+}
+
+/* Styling for project images */
+.project-img {
+  width: 100%; /* Full width */
+  height: auto; /* Maintain aspect ratio */
+  border-radius: 8px 8px 0 0; /* Top corners rounded, bottom corners square */
+  margin-bottom: 0px; /* Space below the image */
+}
+
+/* Styling for project titles */
+.project-title {
+  font-size: var(--font-size); /* Font size for the title */
+  color: var(--text-color);; /* Dark gray color */
+  padding-left: 10px;
+  padding-right: 10px;
+  margin-bottom: 0px; /* Space below the title */
+}
+
+/* Styling for project descriptions */
+.project-description {
+  font-size: 14px; /* Font size for responsiveness */
+  color: var(--text-color);; /* Dark gray color */
+  margin-bottom: 10px; /* Space below the description */
+}
+
+/* Styling for project skills */
+.project-skills {
+  display: flex; /* Use Flexbox layout */
+  flex-wrap: wrap; /* Allow wrapping of skills */
+  justify-content: center; /* Center the skills */
+  gap: 5px; /* Space between skill badges */
+}
+
+/* Styling for skill badges */
+.skill-badge {
+  background-color: var(--link-color); /* Light blue background */
+  color: white; /* White text */
+  padding: 5px 10px; /* Padding inside the badge */
+  border-radius: 20px; /* Fully rounded corners */
+  font-size: 14px; /* Font size for the badge */
+  font-weight: bold; /* Bold text */
+}
