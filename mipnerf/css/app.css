@@ -1,3 +1,4 @@
+@import url('https://fonts.googleapis.com/css?family=PT+Serif:400,400italic,700');
 /* latin-ext */
 @font-face {
   font-family: 'Lato';
@@ -64,13 +65,13 @@
 }
 
 a {
-  color: #1772d0;
+  color: #6A8C95;
   text-decoration: none;
 }
 
 a:focus,
 a:hover {
-  color: #f09228;
+  color: #4682B4;
   text-decoration: none;
 }
 
@@ -80,12 +81,12 @@ th,
 tr,
 p,
 a {
-  font-family: 'Lato', Verdana, Helvetica, sans-serif;
+  font-family: 'PT Serif', serif;
   font-size: 14px
 }
 
 strong {
-  font-family: 'Lato', Verdana, Helvetica, sans-serif;
+  font-family: 'PT Serif', serif;
   font-size: 14px;
 }
 
