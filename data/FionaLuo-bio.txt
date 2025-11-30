@@ -1,0 +1,2 @@
+Fiona Luo recently graduated from the University of Pennsylvania with a B.S.E. and M.S.E. in Computer Science. Her research goal is to build perceptually grounded agents that can physically reason about the world. At Penn, she worked with Prof. Dinesh Jayaraman and Edward Hu in GRASP's Perception, Action, and Learning Group, and with Prof. Chris Callison-Burch and Bryan Li in the Penn NLP Group.
+
