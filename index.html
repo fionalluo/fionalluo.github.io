@@ -31,10 +31,10 @@
                 <p style="text-align:center">
                   <a href="mailto:fiona.luo@gmail.com">Email</a> &nbsp;/&nbsp;
                   <!-- <a href="data/FionaLuo-bio.txt">Bio</a> &nbsp;/&nbsp; -->
-                  <a href="https://scholar.google.com/citations?user=DixNw-4AAAAJ&hl=en">Scholar</a> &nbsp;/&nbsp;
+                  <a href="https://scholar.google.com/citations?user=DixNw-4AAAAJ&hl=en" target="_blank" rel="noopener noreferrer">Scholar</a> &nbsp;/&nbsp;
                   <!-- <a href="https://twitter.com/fionalluo">Twitter</a> &nbsp;/&nbsp; -->
-                  <a href="https://www.linkedin.com/in/fionalluo">LinkedIn</a> &nbsp;/&nbsp;
-                  <a href="https://github.com/fionalluo/">Github</a>
+                  <a href="https://www.linkedin.com/in/fionalluo" target="_blank" rel="noopener noreferrer">LinkedIn</a> &nbsp;/&nbsp;
+                  <a href="https://github.com/fionalluo/" target="_blank" rel="noopener noreferrer">Github</a>
                 </p>
                 <!--
                 <p>
@@ -67,7 +67,7 @@
               <td style="padding:0px;width:100%;vertical-align:middle">
                 <h2>Updates</h2>
                 <ul class="news-list">
-                  <li><strong>Dec 2025</strong>: Our paper <a href="https://arxiv.org/abs/2512.01188" target="_blank">Asymmetric Advantage Weighted Regression (AAWR)</a> is accepted at NeurIPS 2025!</li>
+                  <li><strong>Dec 2025</strong>: Our paper <a href="https://arxiv.org/abs/2512.01188" target="_blank" rel="noopener noreferrer">Asymmetric Advantage Weighted Regression (AAWR)</a> is accepted at NeurIPS 2025!</li>
                   <li><strong>Sep 2025</strong>: Started my first day at <a href="https://www.databricks.com/" target="_blank">Databricks</a>.</li>
                   <li><strong>May 2025</strong>: Graduated summa cum laude from <span style="color:#FF0000;">P</span><span style="color:#0066FF;">e</span><span style="color:#FF0000;">n</span><span style="color:#0066FF;">n</span>, with honors in HKN and TBP.</li>
                   <li><strong>Feb 2025</strong>: Our paper on <a href="https://arxiv.org/abs/2410.01171" target="_blank">Multilingual RAG for Culturally-Sensitive Tasks</a> is accepted at ACL 2025 Findings!</li>
@@ -4422,13 +4422,13 @@ for Topologically Varying Neural Radiance Fields</span>
                 <br>
                 <span style="font-size: 12px;">Also at Aligning Reinforcement Learning Experimentalists and Theorists (ARLET) Workshop, NeurIPS 2025</span>
                 <br>
-                <a href="https://arxiv.org/abs/2512.01188">paper</a>
+                <a href="https://arxiv.org/abs/2512.01188" target="_blank" rel="noopener noreferrer">paper</a>
                 /
-                <a href="https://penn-pal-lab.github.io/aawr/">website</a>
+                <a href="https://penn-pal-lab.github.io/aawr/" target="_blank" rel="noopener noreferrer">website</a>
                 /
-                <a href="https://github.com/penn-pal-lab/aawr">code</a>
+                <a href="https://github.com/penn-pal-lab/aawr" target="_blank" rel="noopener noreferrer">code</a>
                 /
-                <a href="https://huggingface.co/datasets/Everloom/AAWR-DROID">dataset</a>
+                <a href="https://huggingface.co/datasets/Everloom/AAWR-DROID" target="_blank" rel="noopener noreferrer">dataset</a>
                 <p style="color:#666; font-style: italic;">Teaching a robot to search with privileged information.</p>
               </td>
             </tr>
@@ -4619,5 +4619,27 @@ for Topologically Varying Neural Radiance Fields</span>
         </td>
       </tr>
     </table>
+    <script>
+      (function() {
+        var anchors = document.querySelectorAll('a[href]');
+        anchors.forEach(function(a) {
+          var href = a.getAttribute('href');
+          if (!href) return;
+          if (href.startsWith('mailto:') || href.startsWith('#')) return;
+          try {
+            var url = new URL(href, window.location.href);
+            if (url.hostname && url.hostname !== window.location.hostname) {
+              a.target = '_blank';
+              var rel = (a.getAttribute('rel') || '').split(' ').filter(Boolean);
+              if (rel.indexOf('noopener') === -1) rel.push('noopener');
+              if (rel.indexOf('noreferrer') === -1) rel.push('noreferrer');
+              a.setAttribute('rel', rel.join(' '));
+            }
+          } catch (e) {
+            /* ignore invalid URLs */
+          }
+        });
+      })();
+    </script>
   </body>
 </html>
