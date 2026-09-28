@@ -111,6 +111,7 @@ span.highlight {
 
   td[style*="width:184px"] {
     width: 106px !important;
+    vertical-align: top !important;
   }
 
   img[alt="mrag"],
