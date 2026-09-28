@@ -107,6 +107,7 @@ span.highlight {
   img[alt="profile photo"] {
     width: 90px !important;
     height: 90px !important;
+    margin-top: 50px !important;
   }
 
   td[style*="width:184px"] {
