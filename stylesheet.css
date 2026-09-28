@@ -103,16 +103,27 @@ span.highlight {
     border-radius: 10px;
 }
 
+.mobile-name-spacer {
+  display: none;
+}
+
 @media (max-width: 600px) {
   img[alt="profile photo"] {
     width: 90px !important;
     height: 90px !important;
-    margin-top: 50px !important;
+    margin-top: 14px !important;
   }
 
   td[style*="width:184px"] {
     width: 106px !important;
     vertical-align: top !important;
+  }
+
+  .mobile-name-spacer {
+    display: block;
+    visibility: hidden;
+    white-space: nowrap;
+    overflow: hidden;
   }
 
   img[alt="mrag"],
