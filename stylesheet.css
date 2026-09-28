@@ -109,6 +109,10 @@ span.highlight {
     height: 90px !important;
   }
 
+  td[style*="width:184px"] {
+    width: 106px !important;
+  }
+
   img[alt="mrag"],
   video[width="160"] {
     width: 100px !important;
